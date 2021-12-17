@@ -1,11 +1,14 @@
 body {
     background: black;
     color: white;
+    margin: 20px 20px;
 }
 h1 {
+    text-align: center;
     color: red;
 }
 h3 {
+    color: rgb(0, 247, 255);
     text-decoration: underline;
 }
 nav {
