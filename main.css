@@ -3,6 +3,9 @@ body {
     color: white;
     margin: 20px 20px;
 }
+header {
+    background-color: grey;
+}
 h1 {
     text-align: center;
     color: red;
@@ -11,11 +14,21 @@ h3 {
     color: rgb(0, 247, 255);
     text-decoration: underline;
 }
-nav {
+.navList li{
+    display: inline;
+    padding: 0px 135px;
+}
+.navList {
+    border: red solid 3px;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
 ul {
-    outline: red solid 2px;
+    /* outline: red solid 5px; */
     font-size: 15px;
 }
